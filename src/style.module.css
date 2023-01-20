@@ -11,6 +11,9 @@
 }
 
 .tv_show_detail {
+  display: flex;
+  align-items: end;
+  padding-bottom: 10px;
   flex: 2;
 }
 
