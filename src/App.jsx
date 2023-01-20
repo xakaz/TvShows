@@ -54,7 +54,7 @@ export function App() {
         setCurrentTVShow(searchResponse[0]);
       }
     } catch (error) {
-      alert("Erreur durant la recherche de la série");
+      alert("Erreur durant la recherche de la série\n" + error.message);
     }
   }
 
